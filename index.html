@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricing landing project-1</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+
+<body>
+    <div class="main">
+        <div class="hero">
+            <h1>The new iphone14</h1>
+            <h3>More faster & More Secure.</h3>
+            <div class="images">
+                <img src="apple-logo.png" alt="error loding">
+            </div>
+        </div>
+        <img class="fade-effect" src="Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907_Full-Bleed-Image.jpg.large.jpg"
+            alt="error loding">
+        <img src="down.png" style="width: 60px; " alt="error loding" class="down-arrow">
+    </div>
+    <div class="price">
+        <h1 class="tag">Pricing</h1>
+        <label class="switch">
+            <input type="checkbox" id="c" class="input">
+            <span class="slider"></span>
+          </label>
+    </div>
+    <div class="slides">
+        <div class="slide-1">
+            <h4>Best Selling</h4>
+            <h2>iphone 14 SE</h2>
+            <p class="info-iphone">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt similique cumque,
+                eius corrupti quam magni mollitia quis sequi excepturi praesentium dolorum totam asperiores officiis
+                odit molestias laudantium molestiae vitae. Esse hic incidunt corporis nemo cupiditate!</p>
+            <h1 id="a">INR <span >80,000</span>/-</h1>
+            <p class="gst">Lorem ipsum dolor sit.</p>
+            <div class="button">
+                <h5>Ordernow</h5>
+                <div class="ani">
+                    <img src="remove.png" alt="error loding" class="line">
+                    <img src="down.png" alt="error loding" class="arrow">
+                </div>
+
+            </div>
+        </div>
+        <div class="slide-2">
+            <h4>Hot now</h4>
+            <h2>iphone 14+</h2>
+            <p class="info-iphone">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt similique cumque,
+                eius corrupti quam magni mollitia quis sequi excepturi praesentium dolorum totam asperiores officiis
+                odit molestias laudantium molestiae vitae. Esse hic incidunt corporis nemo cupiditate!</p>
+            <h1 id="b">INR <span>1,20,000</span>/-</h1>
+            <p class="gst">Lorem ipsum dolor sit.</p>
+            <div class="button">
+                <h5>Ordernow</h5>
+                <div class="ani">
+                    <img src="remove.png" alt="error loding" class="line">
+                    <img src="down.png" alt="error loding" class="arrow">
+                </div>
+
+            </div>
+        </div>
+        <div class="slide-3">
+            <h4>Recommended</h4>
+            <h2>iphone 14 pro</h2>
+            <p class="info-iphone">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt similique cumque,
+                eius corrupti quam magni mollitia quis sequi excepturi praesentium dolorum totam asperiores officiis
+                odit molestias laudantium molestiae vitae. Esse hic incidunt corporis nemo cupiditate!</p>
+                <h1 id="e">INR <span>1,30,000</span>/-</h1>
+            <p class="gst">Lorem ipsum dolor sit.</p>
+            <div class="button">
+                <h5>Ordernow</h5>
+                <div class="ani">
+                    <img src="remove.png" alt="error loding" class="line">
+                    <img src="down.png" alt="error loding" class="arrow">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="fotter">
+        <div class="box-1">
+            <h1>Apple.com</h1>
+            <div class="images-fotter">
+                <img src="twitter-invert.png" alt="error loding">
+                <img src="fackbook-invert.png" alt="error loding">
+                <img src="insta-invert.png" alt="error loding">
+            </div>
+        </div>
+        <div class="box-2">
+            <h1>Services</h1>
+            <ul>
+                <li><a href="">Manage your apple id</a></li>
+                <li><a href="">icloude.com</a></li>
+                <li><a href="">Apple store Account</a></li>
+            </ul>
+        </div>
+        <div class="box-3">
+            <h1>shop</h1>
+            <ul>
+                <li><a href="#">iphone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">EarBuds</a></li>
+                <li><a href="#">Headphone</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        let price=document.querySelectorAll('.change')
+        let check=document.getElementById('c')
+        check.addEventListener("click",()=>{
+            if (check.checked) {
+                
+                let a=document.getElementById('a')
+                let b=document.getElementById('b')
+                let c=document.getElementById('e')
+
+                a.innerHTML="$ 965.28"
+                b.innerHTML="$ 1447.92"
+                c.innerHTML="$ 1568.58"
+            }else{
+                a.innerHTML="INR 80,000"
+                b.innerHTML="INR 1,20,000"
+                e.innerHTML="INR 1,30,000"
+            }
+        })
+    </script>
+</body>
+
+</html>
